@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\Utente\Desktop\Ssd\Pratica\JCA\EXTR_INFO_CERTFICATE\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2245954586.index
+1218573927.index
+2990270395.index
+509567692.index

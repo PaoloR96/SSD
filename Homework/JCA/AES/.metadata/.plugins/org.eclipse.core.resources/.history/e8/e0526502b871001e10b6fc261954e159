@@ -1,0 +1,44 @@
+package Main;
+
+import javax.crypto.*;
+import javax.crypto.spec.SecretKeySpec;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
+import java.util.Arrays;
+import javax.crypto.spec.SecretKeySpec;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
+import java.util.Arrays;
+
+public class AES {
+	private final String key="SecretKey12345678";
+	private SecretKey secretKey;
+	private  Cipher cipher;
+	byte[] keyBytes;
+	
+	String message = "NULL";
+
+	public void AES_CRYPT(String Msg) throws NoSuchAlgorithmException, NoSuchPaddingException, InvalidKeyException {
+				// Truncate or pad the key to 16 bytes
+				keyBytes = Arrays.copyOf(key.getBytes(), 16);
+				
+				// Generate a secret key from the key bytes
+	            secretKey = new SecretKeySpec(keyBytes, "AES");
+	            
+	            // Create a Cipher object for AES encryption
+	             cipher = Cipher.getInstance("AES");
+	             
+	          // Initialize the cipher in encryption mode with the secret key
+	             cipher.init(Cipher.ENCRYPT_MODE, secretKey);
+		
+		
+	}
+	
+	
+	public void AES_DECRYPT() {
+		
+		
+	}
+
+
+}

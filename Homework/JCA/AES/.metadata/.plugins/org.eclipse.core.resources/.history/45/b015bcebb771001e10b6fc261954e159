@@ -1,0 +1,29 @@
+package Main;
+
+import javax.crypto.*;
+import javax.crypto.spec.SecretKeySpec;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
+import java.util.Arrays;
+import javax.crypto.spec.SecretKeySpec;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
+import java.util.Arrays;
+
+public class AES {
+	private final String key="SecretKey12345678";
+	String message = "NULL";
+
+	public void AES_CRIPT() {
+		
+		
+	}
+	
+	
+	public void AES_DECRIPT() {
+		
+		
+	}
+
+
+}
