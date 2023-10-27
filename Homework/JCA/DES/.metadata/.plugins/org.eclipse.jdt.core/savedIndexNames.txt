@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\Utente\Desktop\Ssd\Pratica\JCA\DES\.metadata\.plugins\org.eclipse.jdt.core
+2245954586.index
+1865797976.index
+2824925460.index
+4241196455.index
+3092729106.index

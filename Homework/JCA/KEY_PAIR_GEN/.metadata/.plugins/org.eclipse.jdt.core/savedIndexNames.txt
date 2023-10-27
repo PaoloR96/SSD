@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Utente\Desktop\Ssd\Pratica\JCA\KEY_PAIR_GEN\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3723887595.index
+2245954586.index

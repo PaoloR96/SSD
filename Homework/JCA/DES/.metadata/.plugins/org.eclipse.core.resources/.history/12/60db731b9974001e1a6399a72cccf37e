@@ -1,0 +1,22 @@
+package main;
+
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
+
+import javax.crypto.BadPaddingException;
+import javax.crypto.IllegalBlockSizeException;
+import javax.crypto.NoSuchPaddingException;
+
+public class Main {
+
+	public static void main(String[] args) throws InvalidKeyException, NoSuchAlgorithmException, NoSuchPaddingException, IllegalBlockSizeException, BadPaddingException {
+		
+		// TODO Auto-generated method stub
+		byte[] bytes = " convert a byte Array to String in Java with UTF-8 character encoding ".getBytes(StandardCharsets.UTF_8);
+		DES p1= new DES();
+		//p1.DES_CRIPT("ciao");
+		//p1.DES_DECRYPT();
+
+	}
+
+}
