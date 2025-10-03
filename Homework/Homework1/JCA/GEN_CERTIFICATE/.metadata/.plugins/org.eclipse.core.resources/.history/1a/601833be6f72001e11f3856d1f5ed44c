@@ -1,9 +1,0 @@
-package Main;
-import java.io.*;
-import java.security.*;
-
-import org.*;
-public class SelfSignedCertificateGeneration {
-	
-
-}
